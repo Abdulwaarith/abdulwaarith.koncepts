@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all.css">
+    <script src="https://kit.fontawesome.com/39fc790722.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION PAGE</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="img-section">
+            <a href="index.html"><img src="img/logo.png" alt="Abdulwaarith Koncepts' Logo" class="logo" id="logo"></a>
+        </div>
+        <nav class="navlink-section">
+            <ul>
+                <li class="nav-links"><a href="index.html">About Me</a></li>
+                <li class="nav-links"><a href="contact.html">Contact</a></li>
+                <li class="nav-links"><a href="registration.html">Register</a></li>
+                <li class="nav-links"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-section">
+
+        <section class="registration-container">
+            <div class="reg-text">
+                <h3>Register</h3>
+            </div>
+            <form action="post">
+                <div class="input-row">
+                    <div class="form-input">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" placeholder="Enter Your First Name" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" placeholder="Enter Your Last Name" required>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="form-input">
+                        <label for="tel">Phone</label>
+                        <input type="tel" id="tel" placeholder="e.g +234 811 827 8897" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="gender">Gender</label>
+                        <select name="gender" id="gender">
+                            <option value="" disabled selected>Select one</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Prefer Not to say">Prefer Not to say</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="form-input" id="email-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Your Email" required>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="form-input">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" placeholder="e.g Nigeria" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="state">State/Province</label>
+                        <input type="text" id="state" placeholder="Your State/Province" required>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="form-input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="**********" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="con-password">Confirm Password</label>
+                        <input type="password" id="con-password" placeholder="**********" required>
+                    </div>
+                </div>
+                <button type="submit"  class="reg-submit">Register</button>
+                <a href="login.html" class="login-ref">Login instead</a>
+            </form>
+        </section>
+
+    </main>
+    <footer id="footer" class="footer">
+            <div class="footer-container">
+                <div class="social-icons">
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/abdulwaarith_koncepts/" target="_blank">
+                            <i class="fa-brands fa-instagram icon"></i>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.facebook.com/abdulwaarith.kehinde" target="_blank">
+                            <i class="fa-brands fa-facebook icon"></i>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://twitter.com/kehindeabdwaris" target="_blank">
+                            <i class="fa-brands fa-twitter icon"></i>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://github.com/abdulwaarith" target="_blank">
+                            <i class="fa-brands fa-github icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-text">Copyright &copy; 2022 Abdulwaarith Koncepts. <br> All rights reserved.
+            </p>
+    </footer>
+    <script src="all.js"></script>
+</body>
+
+</html>

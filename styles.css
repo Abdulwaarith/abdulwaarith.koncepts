@@ -1,0 +1,257 @@
+/* CONTACT PAGE STYLING */
+.contact-container {
+  width: 80%;
+  margin: 50px auto;
+}
+.contact-container h2 {
+  margin-bottom: 10px;
+  color: #0000ff;
+}
+.contact-container p {
+  margin-bottom: 20px;
+  color: #0000ff;
+}
+.contact-section {
+  display: flex;
+  background-color: #f3f3f3;
+}
+.contact-section-1 {
+  flex-basis: 60%;
+  padding: 50px 60px;
+}
+.contact-section-2 {
+  flex-basis: 40%;
+  padding: 50px;
+  background-color: #0000ff;
+  color: white;
+}
+.contact-section-1 h3 {
+  color: blue;
+  margin-bottom: 20px;
+}
+.contact-section-2 h3 {
+  margin-bottom: 20px;
+}
+.contact-input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.contact-input-row .contact-input-group {
+  flex-basis: 45%;
+}
+.contact-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid blue;
+  padding-bottom: 5px;
+  background-color: #f3f3f3;
+  outline: none;
+}
+textarea {
+  width: 100%;
+  border: 1px solid blue;
+  padding: 10px;
+  background-color: #f3f3f3;
+  outline: none;
+  resize: none;
+}
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: blue;
+  display: block;
+}
+.contact-submit {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 10px;
+  background-color: blue;
+  width: 200px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px 0 rgba(25, 45, 120, 0.4);
+}
+.contact-submit:hover {
+  color: #0000ff;
+  background-color: #f3f3f3;
+  border: 1px solid blue;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 255, 0.5);
+  letter-spacing: 1px;
+}
+.contact-table-row td:first-child {
+  padding-right: 20px;
+}
+.contact-table-row td {
+  padding-top: 20px;
+}
+/* END OF CONTACT PAGE STYLING */
+
+/* LOGIN PAGE STYLING */
+.container {
+  background-color: #f3f3f3;
+  width: 400px;
+  height: auto;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+#login-form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 60px 20px 60px;
+}
+.social-images {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 auto;
+}
+.circle {
+  background-color: blue;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.login-input-row {
+  display: block;
+  margin: 30px auto;
+}
+.login-input-row label {
+  margin-bottom: 5px;
+}
+.login-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid blue;
+  padding: 5px;
+  margin-top: -50px;
+  background-color: #f3f3f3;
+  outline: none;
+}
+#login-title {
+  color: #0000ff;
+  text-align: center;
+  margin-top: 15px;
+}
+.r-password {
+  font-size: 14px;
+  color: #0000ff;
+}
+.r-checkbox {
+  margin-right: 10px;
+  border: #0000ff;
+}
+.login-submit{
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin: 20px auto 0 auto;
+  background-color: blue;
+  width: 200px;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px 0 rgba(25, 45, 120, 0.3);
+}
+
+.login-submit:hover {
+  color: #0000ff;
+  background-color: #f3f3f3;
+  border: 1px solid blue;
+}
+/* END OF LOGIN PAGE STYLING */
+
+/* REGISTER PAGE STYLING */
+.registration-container {
+  background-color: #eee;
+  margin: 90px auto;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+.registration-container form {
+  width: 100%;
+  margin: 0 auto;
+}
+.reg-text {
+  color: #0000ff;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+#email-field {
+  width: 100%;
+}
+.form-input {
+  width: 48%;
+  margin-bottom: 10px;
+}
+.input-row input,
+select {
+  width: 100%;
+  font-family: inherit;
+  border: 1px solid #ccc;
+  padding: 5px;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 3px;
+}
+
+.form-input input::placeholder {
+  color: rgba(0, 0, 255, 0.5);
+}
+.form-input select {
+  width: 100%;
+}
+
+.reg-submit{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  background-color: blue;
+  width: 120px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 2px 5px 5px 0 rgba(25, 45, 120, 0.3);
+}
+
+.reg-submit:hover {
+  color: #0000ff;
+  background-color: #f3f3f3;
+  border: 1px solid blue;
+}
+.login-ref {
+  color: #0000ff;
+  margin-left: 10px;
+}
+.login-ref:hover {
+  border-bottom: 1px solid blue;
+}
+/* END OF REGISTER PAGE STYLING */

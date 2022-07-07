@@ -36,7 +36,7 @@ a {
   color: blue;
 }
 .navlink-section ul li a:hover {
-  color: #9b1689;
+  color: #0fa1e4;
   background-color: #fff;
   border-bottom: 1px solid blue;
 }
@@ -45,7 +45,7 @@ a {
   color: blue;
 }
 .navlink-section li a:visited:hover {
-  color: #66e67b;
+  color: #0fa1e4;
 }
 .nav-links {
   display: inline-block;
@@ -146,7 +146,7 @@ a {
 }
 .hero-btn:hover {
   color: #0000ff;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid blue;
 }
 #skills-section {
@@ -171,7 +171,9 @@ a {
   width: 50%;
   height: auto;
 }
-.skill, .hobby, .cta {
+.skill,
+.hobby,
+.cta {
   width: 50px;
   height: 50px;
   margin-bottom: 0;
@@ -197,6 +199,7 @@ a {
   padding: 10px;
   color: #0000ff;
   transition: 0.5s;
+  cursor: pointer;
 }
 .card:hover {
   background-color: #818191;
@@ -221,7 +224,7 @@ a {
   font-size: 16px;
   line-height: 30px;
 }
-.card-text p a{
+.card-text p a {
   color: #0000ff;
 }
 #hobbies-section {
@@ -298,7 +301,7 @@ a {
 }
 .cta-btn:hover {
   color: #0000ff;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid blue;
 }
 
